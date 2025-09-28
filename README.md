@@ -58,6 +58,7 @@ Each day includes:
 - Practical tips and best practices for RTL design
 
  📂 Repository Layout
+ ```
 .
 ├── Day1/
 │   ├── README.md
@@ -67,7 +68,7 @@ Each day includes:
 ├── Day4/
 ├── Day5/
 └── README.md
-
+```
 
 Each Day folder contains output of lab files, and output screenshots.
 

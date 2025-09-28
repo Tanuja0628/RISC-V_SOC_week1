@@ -75,7 +75,7 @@ Best for sequential logic.
 
 always @(posedge clk) q <= d;
 
-🧪 Hands-On Labs
+#### 🧪 Hands-On Labs
 Lab 1 – Ternary MUX
 ```verilog
 module ternary_operator_mux (input i0, input i1, input sel, output y);

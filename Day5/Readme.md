@@ -43,22 +43,22 @@ Nesting is allowed
 A latch is inferred when a variable isn’t assigned in all paths of a combinational block.
 
 ❌ Example (Latch inferred):
-
+```verilog
 always @(a, b, sel) begin
     if (sel)
         y = a;   // missing else
 end
-
+```
 
 ✔ Fixed version (complete assignment):
-
+```verilog
 always @(a, b, sel) begin
     case(sel)
         1'b1 : y = a;
         default : y = 1'b0;  
     endcase
 end
-
+```
 
 ⚡ Rule of Thumb: Always ensure every signal is assigned in all possible paths.
 

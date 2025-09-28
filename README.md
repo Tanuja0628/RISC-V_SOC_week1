@@ -57,7 +57,7 @@ Each day includes:
 
 - Practical tips and best practices for RTL design
 
-# 📂 Repository Layout
+ 📂 Repository Layout
 .
 ├── Day1/
 │   ├── README.md
